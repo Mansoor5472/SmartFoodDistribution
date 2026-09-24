@@ -1,0 +1,38 @@
+{
+  "model_name": "Linear Regression",
+  "trained_date": "2026-09-22",
+  "dataset_type": "Synthetic Historical Demand (Academic Demonstration)",
+  "train_samples": 960,
+  "test_samples": 240,
+  "evaluation": {
+    "MAE": 6.661,
+    "RMSE": 8.209,
+    "R2_Score": 0.9429
+  },
+  "comparison": {
+    "linear_regression": {
+      "MAE": 6.661,
+      "RMSE": 8.209,
+      "R2_Score": 0.9429
+    },
+    "random_forest": {
+      "MAE": 7.242,
+      "RMSE": 8.89,
+      "R2_Score": 0.9331
+    }
+  },
+  "selection_reason": "Linear Regression provided stronger generalization on the test split.",
+  "feature_importances": {
+    "day_of_week": 0.0559,
+    "month": 0.0047,
+    "is_weekend": 0.0527,
+    "location_code": 0.0026,
+    "shelter_density": 0.0366,
+    "donor_activity_index": 0.0135,
+    "category_code": 0.0074,
+    "temperature_celsius": 0.0097,
+    "beneficiaries_count": 0.7431,
+    "historical_demand_lag1": 0.0532,
+    "historical_demand_lag7": 0.0206
+  }
+}
