@@ -1,10 +1,10 @@
-# SMART FOOD DISTRIBUTION PLATFORM 🍲🚚🤝
+# SMART FOOD DISTRIBUTION PLATFORM 
 
 > **AI & ML Semester Project**: An intelligent, production-grade web platform that connects food donors, relief NGOs, and community beneficiaries to eliminate food waste and fight urban hunger using machine learning demand prediction, geospatial Haversine optimization, and multi-factor decision matching.
 
 ---
 
-## 🌟 Key Capabilities & Intelligent Features
+## Key Capabilities & Intelligent Features
 
 ### FEATURE 1 — SMART FOOD DONATION MATCHING (`ml/matching_service.py`)
 A multi-criteria decision analysis (MCDA) recommendation engine that evaluates active food donations and pairs them with the most suitable NGO/volunteer depot or beneficiary shelter.
